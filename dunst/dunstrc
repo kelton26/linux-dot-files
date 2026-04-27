@@ -1,0 +1,59 @@
+[global]
+font = Inter 10
+allow_markup = yes
+
+# Single-card look
+format = "<b>%s</b>\n%b"
+separator_height = 0
+line_height = 0
+
+# Rounded + border
+corner_radius = 12
+frame_width = 1
+frame_color = "#EDEDED"
+
+# Padding
+padding = 10
+horizontal_padding = 10
+text_icon_padding = 10
+
+# Size & position
+width = 300
+origin = top-right
+offset = 6x6
+
+# Transparency (needs compositor)
+transparency = 100
+
+# Behavior
+word_wrap = yes
+stack_duplicates = true
+hide_duplicate_count = true
+show_age_threshold = -1
+
+# Icons
+icon_position = left
+max_icon_size = 40
+
+# Mouse
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+
+
+[urgency_low]
+background = "#0B0B0BE6"
+foreground = "#EDEDED"
+timeout = 4
+
+[urgency_normal]
+background = "#0B0B0BE6"
+foreground = "#EDEDED"
+timeout = 6
+
+[urgency_critical]
+background = "#0B0B0BE6"
+foreground = "#FFFFFF"
+frame_color = "#FF6B6B"
+timeout = 0
+
