@@ -30,6 +30,6 @@ case "$chosen" in
   hyprctl 'dispatch exec [float] nbfc-gtk'
   ;;
 "Keyboard")
-  kitty zsh -c "python ~/acer-predator-turbo-and-rgb-keyboard-linux-module/keyboard.py; exec zsh"
+  python ~/python/app.py
   ;;
 esac
